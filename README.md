@@ -4,19 +4,28 @@ description: 这里是蒙蒙plus个人资料库
 
 # 主页
 
-作为资料的存档位置，将学习笔记记录下来，一起学习交流
+嵌入式开发工程师，喜欢应用新的技术和新的设计思想到单片机平台。
 
-## 目录
+我的宗旨是
 
-[GIt 使用笔记](http://127.0.0.1:5000/o/q6FNRAxYGjEIhDa4zB2z/s/ahDJwy7dgULokGlxx6aM/ "mention")
+1. 代码可读性第一，执行效率第二；
+2. 提高代码复用，降低程序员负担；
+3. 高效的设计方案提高整体性能；
+4. 全局最优比局部最优更有价值；
+5. 一次设计终身收益
 
-[openHarmony](http://127.0.0.1:5000/o/q6FNRAxYGjEIhDa4zB2z/s/5b3dRwpneIUvPLStT9F8/ "mention")
-
-[chip32](http://127.0.0.1:5000/o/q6FNRAxYGjEIhDa4zB2z/s/Opxlu6CRuXbyMx5QlHvo/ "mention")
 
 
+所以我的原则是
 
-### 联系方式
+1. 架构是项目的开端
+2. 每个模块的设计有法可依
+3. 功能是通用而非专用
+4. 分层是必然的结构
+5. 面向对象是我努力的目标
+6. 不写注释就是高质量代码的表现
+
+#### 📫 How to reach me
 
 1. B站 公开了我分享的学习视频[https://space.bilibili.com/152180949](https://space.bilibili.com/152180949)
 2. CSDN 分享了一些文字笔记[https://blog.csdn.net/qq\_34901073](https://blog.csdn.net/qq\_34901073)
