@@ -17,9 +17,7 @@
         "collapsible-menu",
         "-bibtex-indexed-cite",
         "-livereload",
-        "prism",
-        "prism-themes",
-        "-highlight",
+        "highlight",
         "url-embed",
         "page-footer-ex"
     ],
@@ -77,16 +75,6 @@
                 "showExplanation": true
             }
         },
-        "bibtex-indexed-cite": {
-            "path": "/"
-        },
-        "prism": {
-            "plugins": ["line-numbers"],
-            "css": [
-                "prismjs/themes/prism-solarizedlight.css"
-            ]
-        },
-
         "page-footer-ex": {
             "copyright": "By [蒙蒙plus](https://space.bilibili.com/152180949)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
             "markdown": true,
