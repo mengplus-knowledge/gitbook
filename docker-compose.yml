@@ -5,7 +5,7 @@ services:
     image: 'billryan/gitbook'
     restart: always
     tty: true     # 给容器设置一个伪终端防止进程结束容器退出
-    command: ['/bin/bash']
+    command: ['gitbook','serve']
     hostname: 'gitbook'
     #environment: # 添加环境变量。
      # GITLAB_OMNIBUS_CONFIG: |
@@ -13,7 +13,9 @@ services:
      #   # Add any other gitlab.rb configuration here, each on its own line
     volumes:
       - '/home/mengplus/workspace/gitbook:/gitbook'
-    shm_size: '256m'
+    ports:
+      - "4000:4000"
+    shm_size: '512m'
   # cap_add:
   #  - ALL # 开启全部权限
   #devices:  #挂设备
