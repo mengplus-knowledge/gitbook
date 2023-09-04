@@ -1,0 +1,21 @@
+version: '3.6'
+services:
+  web:
+    container_name: gitbook
+    image: 'billryan/gitbook'
+    restart: always
+    tty: true     # 给容器设置一个伪终端防止进程结束容器退出
+    command: ['/bin/bash']
+    hostname: 'gitbook'
+    #environment: # 添加环境变量。
+     # GITLAB_OMNIBUS_CONFIG: |
+     #   external_url 'https://gitlab.example.com'
+     #   # Add any other gitlab.rb configuration here, each on its own line
+    volumes:
+      - '/home/mengplus/workspace/gitbook:/gitbook'
+    shm_size: '256m'
+  # cap_add:
+  #  - ALL # 开启全部权限
+  #devices:  #挂设备
+  # - "/dev/ttyUSB0:/dev/ttyUSB0"
+
