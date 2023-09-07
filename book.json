@@ -17,7 +17,7 @@
         "collapsible-menu",
         "-bibtex-indexed-cite",
         "-livereload",
-        "highlight",
+        "-highlight",
         "url-embed",
         "page-footer-ex"
     ],

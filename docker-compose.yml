@@ -1,6 +1,6 @@
 version: '3.6'
 services:
-  web:
+  gitbook:
     container_name: gitbook
     image: 'billryan/gitbook'
     restart: always
@@ -12,7 +12,7 @@ services:
      #   external_url 'https://gitlab.example.com'
      #   # Add any other gitlab.rb configuration here, each on its own line
     volumes:
-      - '/home/mengplus/workspace/gitbook:/gitbook'
+      - './:/gitbook'
     ports:
       - "4000:4000"
     shm_size: '512m'

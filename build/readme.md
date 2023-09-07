@@ -58,3 +58,30 @@ SUMMARY.md 为整个工程的目录结构管理文件，通过 init命令更新�
     Starting server ...
     Serving book on http://localhost:4000
     ```
+3. 第一次使用需要根据book.json安装插件，或者直接移除此文件可跳过此步骤
+启动容器后使用指令
+```bash
+#进入gitbook容器
+docker exec -it gitbook bash
+#安装gitbook插件,
+gitbook install
+
+```
+如果部分失败，可以将失败的插件暂时移除,操作方式 book.json中plugins中插件前方添加`-`即是移除
+```json
+    "plugins": [
+        "-sharing",
+        "sharing-plus",
+        "include-codeblock",
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "collapsible-menu",
+        "-bibtex-indexed-cite",
+        "-livereload",
+        "-highlight",
+        "url-embed",
+        "page-footer-ex"
+    ],
+```
