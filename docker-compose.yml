@@ -5,7 +5,9 @@ services:
     image: 'billryan/gitbook'
     restart: always
     tty: true     # 给容器设置一个伪终端防止进程结束容器退出
-    command: ['gitbook','serve']
+    command:
+     #- bash
+     ['gitbook','serve']
     hostname: 'gitbook'
     #environment: # 添加环境变量。
      # GITLAB_OMNIBUS_CONFIG: |
