@@ -34,6 +34,7 @@
     * [nginx反向代理](build/nginx.md)
     * [jumpserver堡垒机](build/jumpserver.md)
     * [bt宝塔](build/bt.md)
+    * [1Panel运维管理面板](build/1Panel.md)
 * [相关链接](about/README.md)
     * [gitee首页](https://gitee.com/mengplus/)
     * [github首页](https://gitee.com/meng-plus/)
