@@ -33,7 +33,7 @@ volumes:
   gitea_data:
     driver: local
 services:
-  db:
+  postgresql:
     image: postgres:14
     restart: always
     environment:
@@ -52,7 +52,7 @@ services:
       - USER_UID=1000
       - USER_GID=1000
       - GITEA__database__DB_TYPE=postgres
-      - GITEA__database__HOST=db:5432
+      - GITEA__database__HOST=postgresql:5432
       - GITEA__database__NAME=gitea
       - GITEA__database__USER=gitea
       - GITEA__database__PASSWD=gitea
@@ -67,7 +67,6 @@ services:
       - "3000:3000"
       - "222:22"
     depends_on:
-      - db
-
+      - postgresql
 
 ```
