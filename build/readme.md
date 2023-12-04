@@ -7,9 +7,10 @@ layout: 介绍如何维护使用这个gitbook仓库
 # 开发环境
 
 1. 编写使用markdown
-2. 编译环境billryan/gitbook
+2. 编译环境billryan/gitbook or hitzhangjie/gitbook-cli
 3. 开发推荐使用vscode typora
 
+# billryan/gitbook
 ## 安装环境
 
 ```bash
@@ -86,3 +87,5 @@ gitbook install
         "page-footer-ex"
     ],
 ```
+# hitzhangjie/gitbook-cli
+
