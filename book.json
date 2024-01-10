@@ -8,7 +8,7 @@
     },
     "plugins": [
         "-summary",
-        "toggle-chapters",
+        "-toggle-chapters",
         "-sharing",
         "sharing-plus",
         "include-codeblock",
