@@ -21,7 +21,7 @@
    && mkdir -p aria2/config \
    && mkdir -p data/aria2 \
    && chmod -R 777 data/aria2
-   
+
    touch docker-compose.yaml
    ```
 
@@ -40,12 +40,12 @@
    ├── data
    │   └── aria2  #离线下载存储位置
    ├── docker-compose.yaml #docker 配置文件
-   ├── key.bin  
+   ├── key.bin
    ```
 
-   
 
-   
+
+
 
 2. 官网拿到**key.bin**
 
@@ -65,7 +65,7 @@
          type: none
          device: $PWD/data
          o: bind
-   
+
      cloudreve:
        labels:
          createdBy: "mengplus"
@@ -84,7 +84,7 @@
          - ./data/key.bin:/cloudreve/key.bin
        depends_on:
          - aria2
-   
+
      aria2:
        container_name: aria2
        image: p3terx/aria2-pro
@@ -116,12 +116,12 @@
    #当然也有其它操作
    docker-compose down #停止，并且移除容器
    docker-compose stop #停止
-   
+
    ```
 
-   
 
-   
+
+
 
 Dockerfile
 
