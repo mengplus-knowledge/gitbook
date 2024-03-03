@@ -11,7 +11,6 @@
         * [gitea官方指导部署](git/gitea/gitea.md)
         * [Bitnami部署](git/gitea/Bitnami.md)
 * [journal](journal/readme.md)
-	* [[2024-02-27]]
 * [repo](repo/readme.md)
 * [lvgl](lvgl/readme.md)
     * [font字体生成](lvgl/font.md)

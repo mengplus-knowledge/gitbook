@@ -1,10 +1,26 @@
+---
+title: cloudreve个人网盘部署
+categories:
+  - 网站运维
+tags:
+  - 网盘
+halo:
+  site: https://mengplus.top
+  name: 81a5b017-d2a7-4d17-8c32-8e28407fb12c
+  publish: true
+aliases: 
+time: 2024-03-03
+---
 # cloudreve Pro
 
 ## 说明
 
 根据官方资料整理重新打包，基础使用ubuntu:22.04，容器无法直接使用，请参阅下方使用流程操作。具体打包的版本请看tag
 
-参考链接：1.doc[配置文件 - Cloudreve](https://docs.cloudreve.org/getting-started/config)
+参考链接：
+1. doc[配置文件 - Cloudreve](https://docs.cloudreve.org/getting-started/config)
+2. docker地址[mengplus/cloudreve - Docker Image | Docker Hub](https://hub.docker.com/r/mengplus/cloudreve)
+
 
 ## 启动流程
 
@@ -21,7 +37,7 @@
    && mkdir -p aria2/config \
    && mkdir -p data/aria2 \
    && chmod -R 777 data/aria2
-
+   
    touch docker-compose.yaml
    ```
 
@@ -116,7 +132,7 @@
    #当然也有其它操作
    docker-compose down #停止，并且移除容器
    docker-compose stop #停止
-
+   
    ```
 
 
