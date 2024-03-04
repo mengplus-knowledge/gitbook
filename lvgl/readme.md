@@ -1,11 +1,19 @@
 ---
 description: lvgl使用问题总结
-
 version: V8.3.5
 time: 2023年12月4日
+title: UI开源库lvgl
+categories:
+  - lvgl
+tags:
+  - UI
+halo:
+  site: https://mengplus.top
+  name: 30f4e0b2-82f1-4d02-81e3-4d7e5509885d
+  publish: true
 ---
 
-
+![logo](https://lvgl-chinese-doc.readthedocs.io/zh-cn/latest/_static/logo_lvgl.png)
 # lvgl
 
 
