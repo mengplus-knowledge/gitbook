@@ -2,7 +2,8 @@
 title: lvgl的font字体生成
 categories:
   - lvgl
-tags: 
+tags:
+  - UI
 halo:
   site: https://mengplus.top
   name: eb05d1aa-e230-4639-a35b-26520dab3443
@@ -13,9 +14,6 @@ time: 2024-03-04
 
 ## 简介
 lvgl字库生成需要专用的工具这里推荐使用`SquareLine Studio`和`GUI Guider`,可以满足大部分需求，如果只使用英文字符，可能更加省心，不用操心字库是问题，在设计初期建议先使用英文字符，后续再进行汉化操作。
-
-
-
 # 汉化方式推荐
 为方便先开发后汉化，推荐如下方便规划项目，方便语言切换。
 1. 新建`language.h`头文件放置中文资源

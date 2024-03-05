@@ -27,5 +27,5 @@ halo:
 2. [GUI Guider](https://www.nxp.com.cn/design/software/development-software/gui-guider:GUI-GUIDER)
 ## 章节目录
 
-* [font字体生成](font.md)
+* [font字体生成](font)
 * [components组件设计](components.md)
