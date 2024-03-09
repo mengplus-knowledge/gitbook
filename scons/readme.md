@@ -1,5 +1,5 @@
 ---
-layout: 介绍如何维护使用这个gitbook仓库
+layout:
 ---
 # scons笔记
 ## 资料来源
