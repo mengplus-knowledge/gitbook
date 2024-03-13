@@ -1,3 +1,14 @@
+---
+title: git-svn
+categories:
+  - git
+tags: []
+halo:
+  site: https://mengplus.top
+  name: f65bd8e5-e503-4b00-bc03-e77d9310233f
+  publish: true
+---
+
 # svn
 
 在win平台git-SVN默认是安装的，而linux平台需要手动安装

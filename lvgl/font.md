@@ -8,7 +8,6 @@ halo:
   site: https://mengplus.top
   name: eb05d1aa-e230-4639-a35b-26520dab3443
   publish: true
-time: 2024-03-04
 ---
 # font字体生成
 
@@ -66,13 +65,13 @@ lvgl字库生成需要专用的工具这里推荐使用 `SquareLine Studio`和 `
 
    1. alt按下列选中所有中文字符所在行
 
-      ![Alt text](upload/1.alt_shift.png)
+      ![Alt text](https://mengplus.top/upload/1.alt_shift-ogvx.png)
    2. 松开alt后点击End至行末尾，在操作方向键，左移动两下可得下图位置
 
-      ![Alt text](upload/2.End_leftx2.png)
+      ![Alt text](https://mengplus.top/upload/2.End_leftx2-xlsw.png)
    3. 重点操作，同时按着ctrl和shift,再操作方向键点击左键即可完成中文的选中操作，具体效果见下图
 
-      ![Alt text](upload/3.ctrl_shift_left.png)
+      ![Alt text](https://mengplus.top/upload/3.ctrl_shift_left-lyrg.png)
    4. 通过操作3选中后，松手后点击 `ctrl+C`完成所有中文的拷贝。
 6. 选择字体
    可以优先考虑win中自带的 `*.tff`字体路径在 `C:\Windows\Fonts`，或者自行网络获取。
@@ -84,7 +83,7 @@ lvgl字库生成需要专用的工具这里推荐使用 `SquareLine Studio`和 `
 9. `GUI Guider`生成字库操作
    `GUI Guider`生成字库更加简单，他在UI设计过程中能够自动生成字库，因此如果您采用此软件进行界面设计则无需额外生成字库，如果手动生成字库，怎需要新建一个工程，按照下图打开，生成后到工程路径下寻找 `generated\guider_customer_fonts`
 
-   ![Alt text](upload/font_Guider.png)
+   ![Alt text](https://mengplus.top/upload/font_Guider-hpyo.png)
 10. `lv_font_conv-win.exe` 脚本生成
 
 <h2 id="A123"></h2>
@@ -125,8 +124,8 @@ lvgl字库生成需要专用的工具这里推荐使用 `SquareLine Studio`和 `
 
 1. 使用中文字库后，图标不显示问题（显示为方框）
 
-    ![问题图标](upload/show_err.png)
-	![正常图标](upload/normal.png)
+    ![问题图标](https://mengplus.top/upload/show_err-lzlw.png)
+	![正常图标](https://mengplus.top/upload/normal-kbvx.png)
 
 解决方式：
 

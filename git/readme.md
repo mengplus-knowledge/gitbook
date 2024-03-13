@@ -1,3 +1,13 @@
+---
+title: git安装
+categories:
+  - git
+tags: []
+halo:
+  site: https://mengplus.top
+  name: 64325772-4b2a-4497-baa5-de1c47ed0eae
+  publish: true
+---
 # git使用笔记
 
 ## 参考资料
@@ -12,7 +22,7 @@
 
    ------
 
-   
+
 
 # 下载与安装
 
@@ -28,17 +38,17 @@
 
    ```shell
    # 测试命令
-   $ git 
-   usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]     
-              [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]    
+   $ git
+   usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+              [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
               [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-              [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]       
+              [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
               [--super-prefix=<path>] [--config-env=<name>=<envvar>]
               <command> [<args>]
-   
+
    ```
 
-   
+
 
 ## 配置用户信息
 
@@ -55,7 +65,7 @@
 
 ​	选项
 
-​	 **--global** 
+​	 **--global**
 
 ​		将本次配置列为全局配置，如果新仓库中未再次配置，则使用此默认配置,配置项将修改存放在用户目录下的 ~/.gitconfig也可直接打开此文本查看修改
 
@@ -68,3 +78,9 @@ $　git config --list
 ```
 
 ## 创建仓库
+```bash
+mkdir git_repo
+cd git_repo
+git init
+```
+

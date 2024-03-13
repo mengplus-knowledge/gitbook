@@ -2,4 +2,5 @@ _book/
 docker-compose.yml
 node_modules/
 .obsidian
-.trash/
+.trash
+.git
