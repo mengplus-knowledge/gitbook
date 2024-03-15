@@ -1,3 +1,14 @@
+---
+title: service自启服务
+categories:
+  - 网站运维
+tags:
+  - 自启
+halo:
+  site: https://mengplus.top
+  name: 125455da-5f69-4185-91c7-c863d559397c
+  publish: false
+---
 # service自启服务
 
 ## 参考链接

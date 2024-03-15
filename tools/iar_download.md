@@ -8,7 +8,6 @@ halo:
   site: https://mengplus.top
   name: c772e877-3b25-4441-a14a-f8fdc7e80c74
   publish: true
-time: 2024-03-13
 ---
 # iar版本下载地址
 
@@ -48,13 +47,13 @@ IAR 8.50.6版本[http://files.iar.com/ftp/pub/box/EWARM-CD-8506-28951.exe](http:
 IAR 8.50.9版本[http://files.iar.com/ftp/pub/box/EWARM-CD-8509-33462.exe](http://files.iar.com/ftp/pub/box/EWARM-CD-8509-33462.exe)
 ## IAR 9
 IAR 9.20.2版本[https://netstorage.iar.com/FileS...WARM-9202-43979.exe](https://netstorage.iar.com/FileStore/STANDARD/001/001/178/EWARM-9202-43979.exe)
-IAR 9.30.1版本[https://updates.iar.com/FileStor ... WARM-9301-50054.exe](https://updates.iar.com/FileStore/STANDARD/001/001/664/EWARM-9301-50054.exe)  
-IAR9.32.1版本[https://netstorage.iar.com/FileS ... WARM-9321-55115.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/166/EWARM-9321-55115.exe)  
-IAR9.32.2版本[https://netstorage.iar.com/FileS ... WARM-9322-57414.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/429/EWARM-9322-57414.exe)  
-IAR9.40.1版本[https://netstorage.iar.com/FileS ... WARM-9401-63915.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/594/EWARM-9401-63915.exe)  
-IAR9.40.2版本[https://netstorage.iar.com/FileS ... WARM-9402-67587.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/668/EWARM-9402-67587.exe)  
+IAR 9.30.1版本[https://updates.iar.com/FileStor ... WARM-9301-50054.exe](https://updates.iar.com/FileStore/STANDARD/001/001/664/EWARM-9301-50054.exe)
+IAR9.32.1版本[https://netstorage.iar.com/FileS ... WARM-9321-55115.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/166/EWARM-9321-55115.exe)
+IAR9.32.2版本[https://netstorage.iar.com/FileS ... WARM-9322-57414.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/429/EWARM-9322-57414.exe)
+IAR9.40.1版本[https://netstorage.iar.com/FileS ... WARM-9401-63915.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/594/EWARM-9401-63915.exe)
+IAR9.40.2版本[https://netstorage.iar.com/FileS ... WARM-9402-67587.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/668/EWARM-9402-67587.exe)
 IAR9.50.1版本[https://netstorage.iar.com/FileS ... WARM-9501-69506.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/821/EWARM-9501-69506.exe)
 
 ## 特别说明
 
-雷锋破解器 貌似只支持到**8.40**版本
+雷锋破解器 貌似只支持到**8.40**版本 雷锋破解器 [IAR注册机](https://blog.mengplus.top/upload/IAR注册机.rar)

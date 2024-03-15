@@ -1,7 +1,13 @@
 ---
-description: 代理方便更好的访问互联网
+title: proxy代理宿主机与实例
+categories:
+  - 网站运维
+tags: []
+halo:
+  site: https://mengplus.top
+  name: e2d42985-11bd-433e-8abd-6248bac7c6ce
+  publish: true
 ---
-
 # proxy代理宿主机与实例
 
 
@@ -127,7 +133,7 @@ The document has moved
 ```bash
 # set proxy config via profie.d - should apply for all users
 #
-export http_proxy="http://172.25.0.1:7890/"
+export http_proxy="http://172.25.0.1:7890"
 export https_proxy=$http_proxy
 export ftp_proxy=$http_proxy
 export no_proxy="127.0.0.1,localhost"
@@ -138,6 +144,52 @@ export HTTPS_PROXY=$http_proxy
 export FTP_PROXY=$http_proxy
 export NO_PROXY="127.0.0.1,localhost"
 ```
-将文件加入开机启动即可，我使用的gitea.cn/gitea/gitea:1.21.4  容器启动入口程序是"/usr/bin/entrypoint" ,在里面加入source proxy.sh即可，注意路径。
+将文件加入开机启动即可，我使用的gitea.cn/gitea/gitea:1.21.4  容器启动入口程序是"/usr/bin/entrypoint" ,在里面加入source /etc/profile.d/proxy.sh即可，注意路径。
 
 为什么我不像宿主机一样的配置呢？ 理论上是可以的，但是这个容器使用的系统是"Alpine Linux v3.18",我未找到其他的能够自动调用的地方配置完毕后，重启容器 再次进入容器测试。
+
+### 为docker-compose配置代理
+请看 environment 配置
+```yaml
+networks:
+    1panel-network:
+        external: true
+services:
+    gitea:
+        container_name: ${CONTAINER_NAME}
+        deploy:
+            resources:
+                limits:
+                    cpus: ${CPUS}
+                    memory: ${MEMORY_LIMIT}
+        environment:
+            - USER_UID=1000
+            - USER_GID=1000
+            - GITEA__database__DB_TYPE=${PANEL_DB_TYPE}
+            - GITEA__database__HOST=${PANEL_DB_HOST}:${PANEL_DB_PORT}
+            - GITEA__database__NAME=${PANEL_DB_NAME}
+            - GITEA__database__USER=${PANEL_DB_USER}
+            - GITEA__database__PASSWD=${PANEL_DB_USER_PASSWORD}
+            - http_proxy=http://172.25.0.1:7890
+            - https_proxy=http://172.25.0.1:7890
+            - ftp_proxy=http://172.25.0.1:7890
+            - no_proxy="127.0.0.1,localhost"
+            - HTTPS_PROXY=http://172.25.0.1:7890
+            - HTTP_PROXY=http://172.25.0.1:7890
+            - NO_PROXY="127.0.0.1,localhost"
+
+        image: gitea.cn/gitea/gitea:1.21.7
+        labels:
+            createdBy: Apps
+        networks:
+            - 1panel-network
+        ports:
+            - ${HOST_IP}:${PANEL_APP_PORT_HTTP}:3000
+            - ${HOST_IP}:${PANEL_APP_PORT_SSH}:22
+        restart: always
+        volumes:
+            - /mnt/b/1panel/apps/gitea/gitea/data:/data
+            - /etc/timezone:/etc/timezone:ro
+            - /etc/localtime:/etc/localtime:ro
+version: "3"
+```
