@@ -8,6 +8,16 @@ halo:
   name: d980bc48-9464-40ee-a78a-69c1a9e18e95
   publish: true
 ---
+---
+title: git-push
+categories:
+  - git
+tags: []
+halo:
+  site: https://mengplus.top
+  name: d980bc48-9464-40ee-a78a-69c1a9e18e95
+  publish: true
+---
 # push
 
 ## 参考资料
