@@ -1,6 +1,6 @@
-_book/
-docker-compose.yml
-node_modules/
+node_modules
+
+# Book build output
+_book
+
 .obsidian
-.trash
-.git
