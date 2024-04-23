@@ -68,7 +68,10 @@ https://www.dogyun.com/news
 https://bigchick.xyz/aff.php?aff=221
 没看到有啥好用的
 ## 10.akile
-下单链接：https://akile.net
+下单链接 [akile]( https://akile.io/register?aff_code=ad842b4a-34fa-4b8d-b7b1-260b5d09206b)
 国际大带宽流量型 便宜同样没用过
 
 **推荐理由**：国际大宽带
+## 11. batvm
+http://www.batvm.com
+这个没有测试 慎重 
