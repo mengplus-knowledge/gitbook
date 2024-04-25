@@ -1,9 +1,10 @@
 ---
 title: lvgl的font字体生成
 categories:
-  - lvgl
+  - 嵌入式开发
 tags:
-  - UI
+  - lvgl
+  - font
 halo:
   site: https://mengplus.top
   name: eb05d1aa-e230-4639-a35b-26520dab3443

@@ -4,9 +4,10 @@ version: V8.3.5
 time: 2023年12月4日
 title: UI开源库lvgl
 categories:
-  - lvgl
+  - 嵌入式开发
 tags:
   - UI
+  - lvgl
 halo:
   site: https://mengplus.top
   name: 30f4e0b2-82f1-4d02-81e3-4d7e5509885d
@@ -27,5 +28,5 @@ halo:
 2. [GUI Guider](https://www.nxp.com.cn/design/software/development-software/gui-guider:GUI-GUIDER)
 ## 章节目录
 
-* [font字体生成](font)
+* [font字体生成](font.md)
 * [components组件设计](components.md)

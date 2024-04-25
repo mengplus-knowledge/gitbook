@@ -1,8 +1,10 @@
 ---
 title: lvgl(tabview):选项卡控件 禁止默认的滑动切换页面
 categories:
+  - 嵌入式开发
+tags:
   - lvgl
-tags: []
+  - tableview
 halo:
   site: https://mengplus.top
   name: 53b6745b-9d93-4b0b-a9c7-75fe5190c919

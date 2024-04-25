@@ -1,7 +1,7 @@
 ---
 title: 结构体设计
 categories:
-  - 经验分享
+  - 编程设计
 tags:
   - struct
 halo:
