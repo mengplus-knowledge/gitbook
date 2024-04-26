@@ -10,6 +10,8 @@
     * [mm_fifo环形队列](embedded/mm_fifo.md)
     *  [lvgl](embedded/lvgl/readme.md)
 	    * [font字体生成](embedded/lvgl/font.md)
+	* 经验分享
+		* [Byte alignment and protocol parsing](embedded/expsharing/Byte%20alignment%20and%20protocol%20parsing.md)
 * [rt-thread笔记](rt-thread/readme.md)
 	* [repo](openharmony/repo/readme.md)
     * [线程](rt-thread/thread.md)

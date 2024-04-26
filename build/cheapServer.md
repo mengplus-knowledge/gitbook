@@ -76,3 +76,9 @@ https://bigchick.xyz/aff.php?aff=221
 ## 11. batvm
 http://www.batvm.com
 这个没有测试 慎重
+## 12.雷霆网络
+产品链接：http://www.idc35.com/cloud/hktehui
+也有香港云99
+## 13.netcup
+德国机
+https://www.netcup.eu
