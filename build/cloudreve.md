@@ -16,6 +16,7 @@ time: 2024-03-03
 ## 说明
 
 根据官方资料整理重新打包，基础使用ubuntu:22.04，容器无法直接使用，请参阅下方使用流程操作。具体打包的版本请看tag
+注意：这个是专业版，需要key.bin才能正常使用。
 
 参考链接：
 1. doc[配置文件 - Cloudreve](https://docs.cloudreve.org/getting-started/config)
@@ -134,9 +135,6 @@ time: 2024-03-03
    docker-compose stop #停止
    
    ```
-
-
-
 
 
 Dockerfile

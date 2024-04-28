@@ -7,7 +7,7 @@ tags:
 halo:
   site: https://mengplus.top
   name: 125455da-5f69-4185-91c7-c863d559397c
-  publish: false
+  publish: true
 ---
 # service自启服务
 

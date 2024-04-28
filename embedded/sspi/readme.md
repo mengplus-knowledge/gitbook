@@ -1,5 +1,5 @@
 ---
-title: sspi开源库
+title: sspi(模拟SPI)开源库
 keywords: sspi,sspi开源库,软件SPI,单片机,嵌入式,开源
 description: 软件SPI(Serial Peripheral Interface)在单片机开发中经常被使用，通过模块化的设计简化设计避免重复的工作量。
 author: 蒙蒙plus
@@ -15,7 +15,7 @@ halo:
   publish: true
 ---
 
-# sspi开源库
+# sspi(模拟SPI)开源库
 
 ## 简介
 
