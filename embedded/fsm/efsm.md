@@ -1,13 +1,12 @@
 ---
-title: MDK对多种字符编码的支持
+title: 事件驱动型状态机
 categories:
-  - 嵌入式开发
+  - 开源仓库
 tags:
-  - MDK
-  - UTF8
+  - efsm
 halo:
   site: https://mengplus.top
-  name: ff867c5b-88f8-4682-a86b-2c5483265dc8
+  name: 3315586a-5302-4927-8392-bf6f0563163f
   publish: true
 description: 这个项目提供了一个用于实现有限状态机（Finite State Machine, FSM）的简单框架，用于管理状态和处理事件。该框架支持状态的初始化、退出、周期性任务执行，以及状态切换和事件处理。
 ---

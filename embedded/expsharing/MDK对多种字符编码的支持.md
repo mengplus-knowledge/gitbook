@@ -4,7 +4,6 @@ categories:
   - 嵌入式开发
 tags:
   - MDK
-  - UTF8
 halo:
   site: https://mengplus.top
   name: ff867c5b-88f8-4682-a86b-2c5483265dc8

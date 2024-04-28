@@ -3,7 +3,7 @@ title: 结构体设计
 categories:
   - 编程设计
 tags:
-  - struct
+  - C语言
 halo:
   site: https://mengplus.top
   name: ccaae558-7f8e-4c13-a679-08101c5c48eb

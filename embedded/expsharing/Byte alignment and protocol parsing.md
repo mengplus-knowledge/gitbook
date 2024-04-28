@@ -3,7 +3,7 @@ title: 字节对齐与协议解析
 categories:
   - 嵌入式开发
 tags:
-  - protocol
+  - C语言
 halo:
   site: https://mengplus.top
   name: a582ad94-ed88-46b7-9ddc-101a5cbf60c0
