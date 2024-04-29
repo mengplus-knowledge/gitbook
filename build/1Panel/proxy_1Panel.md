@@ -21,11 +21,11 @@ halo:
 ## 操作步骤
  打开登录公网服务器1Panel,网站>网站>设置>配置修改
  添加如下配置保存即可
- ```bash
+ ```yaml
 
 stream {
     upstream rtmp {
-        server rh1288.mengplus.top:222;
+        server b.adc.top:222;
     }
     server {
         listen 1222;
@@ -34,6 +34,9 @@ stream {
     }
 }
 
-```
+ ```
 
-![](https://mengplus.top/upload/proxy_tcp.png)
+<img src="https://mengplus.top/upload/proxy_tcp.png" style="zoom: 33%;" />
+
+## 效果如下
+1. 访问公网服务器1222端口，即可访问内网服务器**b.adc.top:222**端口
