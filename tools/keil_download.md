@@ -9,6 +9,8 @@ halo:
   site: https://mengplus.top
   name: bd95dea1-7f34-44ba-a906-bbf76e92f064
   publish: true
+slug: keil_MDK_C51_C251
+cover: ""
 ---
 ## 前言
 
