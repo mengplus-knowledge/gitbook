@@ -2,12 +2,13 @@
 title: 华大HC32 flash擦除未生效的解决方法
 slug: hc32-flash
 categories:
-  - 嵌入式
+  - 嵌入式开发
 tags: []
 halo:
   site: https://mengplus.top
   name: 0569d814-0347-4552-8e70-397e79198170
   publish: true
+cover: ""
 ---
 
 # 华大HC32 flash擦除未生效的解决方法
@@ -15,6 +16,7 @@ halo:
 ## 参考资料
 1. https://www.xhsc.com.cn/Productlist/info.aspx?itemid=1780&parent
 2. https://blog.csdn.net/weixin_43895102/article/details/119084248
+3. https://blog.csdn.net/Oushuwen/article/details/109243294
 ## 关键信息
 
 在应用手册 《AN_FLASH操作说明_Rev1.1.pdf》可看到如下描述

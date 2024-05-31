@@ -70,4 +70,7 @@ halo:
 15. 鸡仔云
 	1. https://bigchick.xyz/aff.php?aff=221
 	2. 没看到有啥好用的
+16. bk588
+	1. https://www.bk588.cn/cart?action=configureproduct&pid=83
+	2. 香港机30m 21元 比较便宜款
 

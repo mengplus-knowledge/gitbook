@@ -12,6 +12,8 @@
 	    * [font字体生成](embedded/lvgl/font.md)
 	* 经验分享
 		* [Byte alignment and protocol parsing](embedded/expsharing/Byte%20alignment%20and%20protocol%20parsing.md)
+	* [ IAP升级](1.aboutiap.md)
+		* 
 * [rt-thread笔记](rt-thread/readme.md)
 	* [repo](openharmony/repo/readme.md)
     * [线程](rt-thread/thread.md)
@@ -19,9 +21,6 @@
         * [串口](rt-thread/device/serial.md)
 * [openharmony笔记](openharmony/readme.md)
 * [scons笔记](scons/readme.md)
-* [公共基础库](utils/readme.md)
-    * [嵌入式utils](https://github.com/clnhlzmn/utils)
-    * [鸿蒙utils](https://gitee.com/openharmony/commonlibrary_c_utils)
 * [开发与部署](build/readme.md)
     * [gitbook](build/gitbook.md)
 	* [gitea服务器](build/gitea/readme.md)
