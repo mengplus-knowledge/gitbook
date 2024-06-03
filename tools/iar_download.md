@@ -1,5 +1,6 @@
 ---
 title: iar版本下载地址
+slug: iar_download
 categories:
   - 软件分享
 tags:
@@ -8,8 +9,6 @@ halo:
   site: https://mengplus.top
   name: c772e877-3b25-4441-a14a-f8fdc7e80c74
   publish: true
-slug: iar_download
-cover: ""
 ---
 # iar版本下载地址
 
@@ -54,6 +53,7 @@ IAR 9.30.1版本[WARM-9301-50054.exe](https://updates.iar.com/FileStore/STANDARD
 IAR9.32.1版本[WARM-9321-55115.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/166/EWARM-9321-55115.exe)
 IAR9.32.2版本[WARM-9322-57414.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/429/EWARM-9322-57414.exe)
 IAR9.40.1版本[EWARM-9401-63915.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/594/EWARM-9401-63915.exe)
+
 IAR9.40.2版本[EWARM-9402-67587.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/668/EWARM-9402-67587.exe)
 
 IAR9.50.1版本[EWARM-9501-69506.exe](https://netstorage.iar.com/FileStore/STANDARD/001/002/821/EWARM-9501-69506.exe)
@@ -62,7 +62,6 @@ IAR9.50.2版本[EWARM-9502-71951.exe](http://files.iar.com/ftp/pub/box/EWARM-950
 
 ## 特别说明
 
-雷锋破解器 貌似只支持到**8.40**版本 雷锋破解器 [IAR注册机](https://blog.mengplus.top/upload/IAR注册机.rar)
-
+雷锋破解器 貌似只支持到**8.40**版本 雷锋破解器 [IAR注册机](/upload/IAR注册机.rar)
+新版的包请尝试[iar9.XX注册机](/upload/IAR+9.40.1+注册机.zip)
 下载速度较慢可以考虑使用迅雷、网盘离线下载等工具加速
-
