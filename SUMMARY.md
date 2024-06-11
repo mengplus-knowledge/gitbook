@@ -11,7 +11,9 @@
     *  [lvgl](embedded/lvgl/readme.md)
 	    * [font字体生成](embedded/lvgl/font.md)
 	* 经验分享
+	* [ IAP升级](1.aboutiap.md)
 		* [Byte alignment and protocol parsing](embedded/expsharing/Byte%20alignment%20and%20protocol%20parsing.md)
+		* 
 	* [ IAP升级](1.aboutiap.md)
 		* 
 * [rt-thread笔记](rt-thread/readme.md)

@@ -16,6 +16,8 @@ halo:
 > - 域名备案问题：国内大陆云服务都需要备案（香港及其它国家的不需要），否则服务器提供商都会拦截，所以国内小白用户，推荐在同一家购买域名和云服务器并一键备案。
 > - 较跑路风险，国外服务器更大的是无法访问与高延迟；小厂都有跑路风险，请注意关键数据的保护。
 > - 价格来说除了前三个，其他价格都是可以的，只不过不同厂商侧重点不一样，根据需要选择厂商购买。
+> - https://www.nazhumi.com
+这个网站 统计了很多域名购买与续费价格
 
 1. 阿里云
 	1. 购买链接：[阿里云99元1年](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=9ikm4mm1) ECS服务器(**2**核(vCPU)**2** GiB)
@@ -37,11 +39,11 @@ halo:
 	3. **推荐理由**：国内便宜带宽足,客服回应及时
 	4. 推荐套餐：|2核2G|2 vCPU|2GiB|Intel® Xeon® E5-2690v2|3.0G|20G DDoS|10 Mbps|上下对等|不限制|￥25/月|
 6. 物语云
-	1. https://www.wuyuidc.com/home.htm 
-	2. 大带宽流量便宜，实际使用情况未知 
+	1. https://www.wuyuidc.com/home.htm
+	2. 大带宽流量便宜，实际使用情况未知
 	3. **推荐理由**：电信500M带宽，流量也便宜
 7. 莱卡云
-	1. https://www.lcayun.com 
+	1. https://www.lcayun.com
 	2. 国内的
 8. 观星云
 	1. 注册地址 https://www.guanxingyun.com/aff/ZZCBBIIO
