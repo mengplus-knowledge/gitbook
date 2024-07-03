@@ -1,5 +1,6 @@
 ---
 title: 云服务器推荐
+slug: cheapserver
 categories:
   - 网站运维
 tags:
@@ -20,59 +21,79 @@ halo:
 这个网站 统计了很多域名购买与续费价格
 
 1. 阿里云
-	1. 购买链接：[阿里云99元1年](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=9ikm4mm1) ECS服务器(**2**核(vCPU)**2** GiB)
-	2. ​购买后可以将固定带宽改为流量计费(退费30元)，带宽随便配置，每月免费20G国内公网流量（超出后0.8元/GB），如果用量比较少，这样是最合适的一年70块钱，还要啥自行车
-	3. **推荐理由**：个人首次购买首选，备案一条龙挺方便，没流量需求的性价比最高，网站备案必备
+   1. 购买链接：[阿里云99元1年](https://www.aliyun.com/daily-act/ecs/activity_selection?userCode=9ikm4mm1) ECS服务器(**2**核(vCPU)**2** GiB)
+   2. 购买后可以将固定带宽改为流量计费(退费30元)，带宽随便配置，每月免费20G国内公网流量（超出后0.8元/GB），如果用量比较少，这样是最合适的一年70块钱，还要啥自行车
+   3. **推荐理由**：个人首次购买首选，备案一条龙挺方便，没流量需求的性价比最高，网站备案必备
+
 2. 腾讯云
-	1. https://cloud.tencent.com/act/pro/bestselling?from=22060
-	2.  两个大厂都推出99元一年的，性价比相当，往常习惯每个账户都可以每年续费一台99的
-	3.  **推荐理由**：同阿里云
+   1. https://cloud.tencent.com/act/pro/bestselling?from=22060
+   2. 两个大厂都推出99元一年的，性价比相当，往常习惯每个账户都可以每年续费一台99的
+   3. **推荐理由**：同阿里云
+
 3. 华为云
-	1. [华为云61一年](https://activity.huaweicloud.com/discount_area_v5/index.html ) 新用户61一年，第二年好像就贵了
-	2. **推荐理由**：首年便宜
+   1. [华为云61一年](https://activity.huaweicloud.com/discount_area_v5/index.html ) 新用户61一年，第二年好像就贵了
+   2. **推荐理由**：首年便宜
+
 4. 京东云
-	1.  京东云 https://3.cn/1XSH-fdn
-	2. 短期用很便宜，自己研究看看
-5. 鸿梦云
-	1. 注册链接: https://hmyun.com.cn/?ic1dca5
-	2. 性价比高，能用，数据安全稳定性自行评测，主做国内服务，带宽也不小
-	3. **推荐理由**：国内便宜带宽足,客服回应及时
-	4. 推荐套餐：|2核2G|2 vCPU|2GiB|Intel® Xeon® E5-2690v2|3.0G|20G DDoS|10 Mbps|上下对等|不限制|￥25/月|
-6. 物语云
-	1. https://www.wuyuidc.com/home.htm
-	2. 大带宽流量便宜，实际使用情况未知
-	3. **推荐理由**：电信500M带宽，流量也便宜
-7. 莱卡云
-	1. https://www.lcayun.com
-	2. 国内的
-8. 观星云
-	1. 注册地址 https://www.guanxingyun.com/aff/ZZCBBIIO
-	2. 同样便宜 包年优势大点
-	3. **推荐理由**：带宽不算小，综合需求可以，年购更优惠
-9.  旺旺云计算
-	1. 注册地址 https://w-wang.cn/aff/VZTDGBOH
-	2. **推荐理由**：云桌面支持多点，其它的跟观星云感觉相当
-10. hostyun
-	1. 注册地址 https://my.hostyun.com/page.aspx?c=referral&u=39351
-	2. 香港服务商
-	3. **推荐理由**:带宽，流量，做转发呗
-11. akile
-	1. 下单链接 [akile]( https://akile.io/register?aff_code=ad842b4a-34fa-4b8d-b7b1-260b5d09206b)
-	2. 国际大带宽流量型 便宜同样没用过
-	3. **推荐理由**：国际大宽带，支持服务器交易
-12. batvm
-	1. http://www.batvm.com
-	2. 这个没有测试 慎重
-13. 雷霆网络
-	1. 产品链接：http://www.idc35.com/cloud/hktehui
-	2. 也有香港云99
-14. netcup
-	1. 德国机
-	2. https://www.netcup.eu
-15. 鸡仔云
-	1. https://bigchick.xyz/aff.php?aff=221
-	2. 没看到有啥好用的
-16. bk588
-	1. https://www.bk588.cn/cart?action=configureproduct&pid=83
-	2. 香港机30m 21元 比较便宜款
+   1. 京东云 https://3.cn/1XSH-fdn
+   2. 短期用很便宜，自己研究看看
+
+5. **火数云**（hsy）
+   1. 邀请码https://console.huocloud.com/login/register?extensionCode=d0a1a5a0da3c4ec3a90d4c1626e6e56c
+   2. 服务全面可选性多，保质保量高可用
+
+6. 鸿梦云
+   1. 注册链接: https://hmyun.com.cn/?ic1dca5
+   2. 性价比高，能用，数据安全稳定性自行评测，主做国内服务，带宽也不小
+   3. **推荐理由**：国内便宜带宽足,客服回应及时
+   4. 推荐套餐：|2核2G|2 vCPU|2GiB|Intel® Xeon® E5-2690v2|3.0G|20G DDoS|10 Mbps|上下对等|不限制|￥25/月|
+
+7. 棉花云
+   1. 官网[棉花云：99元/月/4核/8G内存/20G NVMe SSD硬盘/1T流量/300Mbps端口/武汉电信)](https://imotao.com/8662.html)
+   2. 推荐套餐：4h8G 300M月99
+
+8. 物语云
+   1. https://www.wuyuidc.com/home.htm
+   2. 大带宽流量便宜，实际使用情况未知
+   3. **推荐理由**：电信500M带宽，流量也便宜
+
+9. 狐蒂云
+   1. [购物车-狐蒂云（中国亚太）云计算平台 (hd1dc.com)](https://www.hd1dc.com/cart?fid=2&gid=98)
+   2. 国内便宜大带宽
+
+10. 莱卡云
+   1. https://www.lcayun.com
+   2. 国内的
+
+11. 观星云
+    1. 注册地址 https://www.guanxingyun.com/aff/ZZCBBIIO
+    2. 同样便宜 包年优势大点
+    3. **推荐理由**：带宽不算小，综合需求可以，年购更优惠
+
+12. 旺旺云计算
+    1. 注册地址 https://w-wang.cn/aff/VZTDGBOH
+    2. **推荐理由**：云桌面支持多点，其它的跟观星云感觉相当
+13. hostyun
+    1. 注册地址 https://my.hostyun.com/page.aspx?c=referral&u=39351
+    2. 香港服务商
+    3. **推荐理由**:带宽，流量，做转发呗
+14. akile
+    1. 下单链接 [akile]( https://akile.io/register?aff_code=ad842b4a-34fa-4b8d-b7b1-260b5d09206b)
+    2. 国际大带宽流量型 便宜同样没用过
+    3. **推荐理由**：国际大宽带，支持服务器交易
+15. batvm
+    1. http://www.batvm.com
+    2. 这个没有测试 慎重
+16. 雷霆网络
+    1. 产品链接：http://www.idc35.com/cloud/hktehui
+    2. 也有香港云99
+17. netcup
+    1. 德国机
+    2. https://www.netcup.eu
+18. 鸡仔云
+    1. https://bigchick.xyz/aff.php?aff=221
+    2. 没看到有啥好用的
+19. 樱雨云
+    1. https://ipxr.cn/aff/KAUDKANA
+    2. 公益云，永久机
 
