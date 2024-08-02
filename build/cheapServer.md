@@ -53,7 +53,7 @@ halo:
    2. 推荐套餐：4h8G 300M月99
 
 8. digitalvirt
-   1. 地址digitalvirt.com/store/hk-plus-vps
+   1. 地址 https://digitalvirt.com/store/hk-plus-vps
    2. 港机带宽足
 9. 物语云
    1. https://www.wuyuidc.com/home.htm
@@ -61,42 +61,42 @@ halo:
    3. **推荐理由**：电信500M带宽，流量也便宜
 
 10. 狐蒂云
-   1. [购物车-狐蒂云（中国亚太）云计算平台 (hd1dc.com)](https://www.hd1dc.com/cart?fid=2&gid=98)
-   2. 国内便宜大带宽
+    1. [购物车-狐蒂云（中国亚太）云计算平台 (hd1dc.com)](https://www.hd1dc.com/cart?fid=2&gid=98)
+    2. 国内便宜大带宽
 
 11. 莱卡云
-12. https://www.lcayun.com
-13. 国内的
+    1. https://www.lcayun.com
+    2. 国内的
 
-14. 观星云
+12. 观星云
     1. 注册地址 https://www.guanxingyun.com/aff/ZZCBBIIO
     2. 同样便宜 包年优势大点
     3. **推荐理由**：带宽不算小，综合需求可以，年购更优惠
 
-15. 旺旺云计算
+13. 旺旺云计算
     1. 注册地址 https://w-wang.cn/aff/VZTDGBOH
     2. **推荐理由**：云桌面支持多点，其它的跟观星云感觉相当
-16. hostyun
+14. hostyun
     1. 注册地址 https://my.hostyun.com/page.aspx?c=referral&u=39351
     2. 香港服务商
     3. **推荐理由**:带宽，流量，做转发呗
-17. akile
+15. akile
     1. 下单链接 [akile]( https://akile.io/register?aff_code=ad842b4a-34fa-4b8d-b7b1-260b5d09206b)
     2. 国际大带宽流量型
     3. **推荐理由**：国际大宽带，支持服务器交易
-18. batvm
+16. batvm
     1. http://www.batvm.com
     2. 这个没有测试 慎重
-19. 雷霆网络
+17. 雷霆网络
     1. 产品链接：http://www.idc35.com/cloud/hktehui
     2. 也有香港云99
-20. netcup
+18. netcup
     1. 德国机
     2. https://www.netcup.eu
-21. 鸡仔云
+19. 鸡仔云
     1. https://bigchick.xyz/aff.php?aff=221
     2. 没看到有啥好用的
-22. 樱雨云
+20. 樱雨云
     1. https://ipxr.cn/aff/KAUDKANA
     2. 公益云，永久机
 
