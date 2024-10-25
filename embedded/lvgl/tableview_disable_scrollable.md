@@ -1,5 +1,6 @@
 ---
 title: lvgl(tabview):选项卡控件 禁止默认的滑动切换页面
+slug: tableview_disable_scrollable
 categories:
   - 嵌入式开发
 tags:
