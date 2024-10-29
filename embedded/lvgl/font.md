@@ -1,5 +1,6 @@
 ---
 title: lvgl的font字体生成
+slug: font
 categories:
   - 嵌入式开发
 tags:
