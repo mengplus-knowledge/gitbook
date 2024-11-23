@@ -1,5 +1,6 @@
 ---
 title: lvm lv使用手册
+slug: lvm-lv
 categories:
   - 网站运维
 tags:
@@ -16,7 +17,7 @@ halo:
 > [!NOTE]
 >
 > 文件系统是建立在逻辑卷lv之上，调整文件系统，需要注意前后顺序
-> 创建文件系统过程：lvcreate ->mkfs.ext4 
+> 创建文件系统过程：lvcreate ->mkfs.ext4
 > 扩容文件系统过程：lvextend -> resize2fs
 > 缩减文件系统过程：resize2fs ->lvreduce
 
@@ -73,9 +74,9 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
 这里进行一个简单示例，更多操作请看后续的参数介绍
 ```bash
    #创建示例 在vol-vg卷组中创建一个500G容量名为vol-lv的逻辑卷
-   sudo lvcreate -L 500G -n vol-lv  vol-vg  
+   sudo lvcreate -L 500G -n vol-lv  vol-vg
    #创建示例 在vol-vg卷组中创建一个占用20%空闲容量的名为vol-lv的逻辑卷
-   sudo lvcreate -L 20%Free  -n vol-lv  vol-vg  
+   sudo lvcreate -L 20%Free  -n vol-lv  vol-vg
 ```
 2. Create a striped LV (infers --type striped).
    创建一个带条LV.
@@ -196,7 +197,7 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
 
 10. Create a thin LV that is a snapshot of an existing thin LV
 	 创建一个精简LV，该LV是现有精简LV的快照
-    
+
     ```bash
       lvcreate -s|--snapshot LV_thin
             [    --type thin ]
@@ -204,7 +205,7 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
             [    --errorwhenfull y|n ]
             [ COMMON_OPTIONS ]
 	```
-	
+
 11. Create a thin LV that is a snapshot of an external origin LV.
     创建一个作为外部源LV快照的精简LV。
     ```bash
@@ -289,7 +290,7 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
 16. Create a new LV, then attach a cachevol created from  the specified cache device, which converts the new LV to type cache.
     创建一个新的LV，然后附加从创建的cachevol指定的缓存设备，用于转换要键入缓存的新LV。
     ```bash
-    
+
       lvcreate --type cache -L|--size Size[m|UNIT] --cachedevice PV VG
             [ -l|--extents Number[PERCENT] ]
             [ -c|--chunksize Size[k|UNIT] ]
@@ -318,7 +319,7 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
 
 18. Create a new LV, then attach a cachevol created from  the specified cache device, which converts the  new LV to type writecache.
     创建一个新的LV，然后附加从创建的cachevol指定的缓存设备，用于转换要键入writecache的新LV。
-    
+
     ```bash
       lvcreate --type writecache -L|--size Size[m|UNIT] --cachedevice PV VG
             [ -l|--extents Number[PERCENT] ]
@@ -329,7 +330,7 @@ lvconvert    lvdisplay    lvm          lvmdiskscan  lvmpolld     lvmsar       lv
             [ COMMON_OPTIONS ]
             [ PV ... ]
     ```
-    
+
 ## 创建文件系统与挂载逻辑卷
 创建文件系统不是lvm相关知识，但是考虑到文章连贯性，这里进行简单介绍
 ### 指令清单
@@ -398,14 +399,15 @@ sudo mount -a
 
    示例操作
 
-   ```
+   ```bash
    #扩展vol容量到600G
    sudo lvextend -L 600G /dev/vol-vg/vol-lv
    #resize2fs命令可以调整ext2\ext3\ext4文件系统的大小，它可以放大或者缩小没有挂载的文件系统的大小。如果文件系统已经挂载，它可以扩大文件系统的大小，前提是内核支持在线调整大小。
+   # lvextend -l 100%FREE /dev/VolGroup00/lv_root
+
    sudo resize2fs /dev/vol-vg/vol-lv
    ```
 
-   
 
 2.    Extend an LV by specified PV extents.
    将LV延伸指定的PV范围。
@@ -440,7 +442,7 @@ sudo mount -a
            [ PV ... ]
    ```
 
-   
+
 
 ## lvmconfig查看lv的配置信息
 
