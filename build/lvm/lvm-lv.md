@@ -18,8 +18,8 @@ halo:
 >
 > 文件系统是建立在逻辑卷lv之上，调整文件系统，需要注意前后顺序
 > 创建文件系统过程：lvcreate ->mkfs.ext4
-> 扩容文件系统过程：lvextend -> resize2fs
-> 缩减文件系统过程：resize2fs ->lvreduce
+> 扩容文件系统过程：lvextend -> resize2fs->e2fsck
+> 缩减文件系统过程：e2fsck->resize2fs ->lvreduce
 
 ## 命令清单
 ```bash
