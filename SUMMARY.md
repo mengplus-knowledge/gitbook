@@ -27,7 +27,7 @@
         * [gitea官方指导部署](gitea.md)
         * [Bitnami部署](Bitnami.md)
 	* [让Linux磁盘空间的弹性管理](lvm.md)
-	* [create_img](create_img)
+	* [create_img](create_img.md)
 	* [docker笔记](server/docker/readme.md)
 	    * [docker](docker.md)
 	    * [container](container.md)

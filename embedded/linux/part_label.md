@@ -3,8 +3,9 @@ title: linux 查看与设置卷标
 slug: part_label
 cover: ""
 categories:
-  - 嵌入式开发
-tags: []
+  - linux
+tags:
+  - e2label
 halo:
   site: https://mengplus.top
   name: 84144035-3719-43ed-89ee-0b0affecd613

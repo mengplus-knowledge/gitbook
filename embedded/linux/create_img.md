@@ -1,11 +1,11 @@
 ---
 title: 创建虚拟镜像用于测试
 slug: create_img
-cover: 
+cover: ""
 categories:
-  - 嵌入式开发
-tags:
   - linux
+tags:
+  - truncate
 halo:
   site: https://mengplus.top
   name: 354724ba-6810-4197-b393-63dc0a5f1b1b
